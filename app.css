@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+.content{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+    background-color: blue;
+}
+.card{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.w-full{
+    width: 100%;
+}
+.p-1 {
+    padding: 10px;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
+
+}
+.mt-3{
+    margin-top: 30px;
+}
+
+.text_field{
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    
+}
+.text_field:focus{
+    border: 1px solid #007bff6b;
+    outline: 3px solid #007bff2f;
+    
+}
+.rounded-md{
+    border-radius: 5px;
+}
+
+.text-md{
+    font-size: 12px;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.items-center{
+    align-items: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-center{
+    justify-content: center;
+}
+.gap-1{
+    gap: 10px;
+}
+.text-gray{
+    color: #666;
+}   
+.font-meduim{
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0056b3;
+}
+.btn:focus{
+    outline: 3px solid #007bff7a;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #007bff;
+    text-decoration: underline;
+}
+.bg-danger{
+    background-color: #f01329;
+    color: white;
+    border: 1px solid #f5c6cb;
+
+    border-radius: 5px;
+}
+.bg-blue{
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+.bg-skype{
+    background-color: #00aff0;
+    color: white;
+    border: 1px solid #00aff0;
+
+    border-radius: 5px;
+}
+.text-decoration-none{
+    text-decoration: none ;
+}
+.text-decoration-none:hover{
+    text-decoration: none;
+}
+hr{
+    border: 1px solid #ebebeb;
+}
+.p-5px{
+    padding: 5px;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.top-1{
+    top: 10px;
+}
+.left-10{
+    left: 10px;
+}
+
+.active{
+    color: #007bff;
+}
+
+.menu{
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.w-50{
+    width: calc(100% - 50%);
+}
+.card-p{
+    background: #000;
+}
+
+.image{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220216/pngtree-blue-geometric-business-technology-line-feeling-fluid-simple-poster-background-image_973080.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.bg-white{
+    background-color: white;
+   
+}
+.shadow-md{
+    box-shadow: 6px 6px 15px rgb(190, 190, 190);
+}
+.bg-grey{
+    background-color: rgb(236, 236, 236);
+}
+.h-70{
+    height: calc(100vh - 20vh);
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.text-blue{
+    color: rgb(55, 144, 172);
+}
